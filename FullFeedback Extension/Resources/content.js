@@ -14,7 +14,7 @@ browser.runtime.sendMessage({ greeting: "hello" }).then((response) => {
     var complete_text = document.createElement('h2');
     var complete = Array.prototype.filter.call(elements, function(element){
         const button = element.getElementsByClassName('btn-outline-primary')[0];
-        return button.textContent == 'フィードバックする';
+        return button.textContent == 'フィードバックを編集する';
     }).length;
     var total = elements.length;
     const percentage = ~~((complete / total) * 100);
