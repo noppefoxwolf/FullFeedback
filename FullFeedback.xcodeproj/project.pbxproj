@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37DC515728CD775A005379A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DC515628CD775A005379A5 /* AppDelegate.swift */; };
+		37DC515B28CD775A005379A5 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 37DC515928CD775A005379A5 /* Main.html */; };
+		37DC515D28CD775A005379A5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DC515C28CD775A005379A5 /* Icon.png */; };
+		37DC515F28CD775A005379A5 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 37DC515E28CD775A005379A5 /* Style.css */; };
+		37DC516128CD775A005379A5 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 37DC516028CD775A005379A5 /* Script.js */; };
+		37DC516328CD775A005379A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DC516228CD775A005379A5 /* ViewController.swift */; };
+		37DC516628CD775A005379A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DC516428CD775A005379A5 /* Main.storyboard */; };
+		37DC516828CD775B005379A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37DC516728CD775B005379A5 /* Assets.xcassets */; };
+		37DC517028CD775B005379A5 /* FullFeedback Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 37DC516F28CD775B005379A5 /* FullFeedback Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37DC517528CD775B005379A5 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DC517428CD775B005379A5 /* SafariWebExtensionHandler.swift */; };
+		37DC517828CD775B005379A5 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 37DC517728CD775B005379A5 /* _locales */; };
+		37DC517A28CD775B005379A5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 37DC517928CD775B005379A5 /* images */; };
+		37DC517C28CD775B005379A5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 37DC517B28CD775B005379A5 /* manifest.json */; };
+		37DC517E28CD775B005379A5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 37DC517D28CD775B005379A5 /* background.js */; };
+		37DC518028CD775B005379A5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 37DC517F28CD775B005379A5 /* content.js */; };
+		37DC518228CD775B005379A5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 37DC518128CD775B005379A5 /* popup.html */; };
+		37DC518428CD775B005379A5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 37DC518328CD775B005379A5 /* popup.css */; };
+		37DC518628CD775B005379A5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 37DC518528CD775B005379A5 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37DC517128CD775B005379A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37DC514B28CD775A005379A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37DC516E28CD775B005379A5;
+			remoteInfo = "FullFeedback Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37DC518E28CD775B005379A5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37DC517028CD775B005379A5 /* FullFeedback Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37DC515328CD775A005379A5 /* FullFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DC515628CD775A005379A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37DC515A28CD775A005379A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		37DC515C28CD775A005379A5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		37DC515E28CD775A005379A5 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		37DC516028CD775A005379A5 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		37DC516228CD775A005379A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37DC516528CD775A005379A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37DC516728CD775B005379A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37DC516928CD775B005379A5 /* FullFeedback.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FullFeedback.entitlements; sourceTree = "<group>"; };
+		37DC516A28CD775B005379A5 /* FullFeedback.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FullFeedback.entitlements; sourceTree = "<group>"; };
+		37DC516F28CD775B005379A5 /* FullFeedback Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FullFeedback Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DC517428CD775B005379A5 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		37DC517728CD775B005379A5 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		37DC517928CD775B005379A5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		37DC517B28CD775B005379A5 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		37DC517D28CD775B005379A5 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		37DC517F28CD775B005379A5 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		37DC518128CD775B005379A5 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		37DC518328CD775B005379A5 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		37DC518528CD775B005379A5 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		37DC518728CD775B005379A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DC518828CD775B005379A5 /* FullFeedback_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FullFeedback_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37DC515028CD775A005379A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DC516C28CD775B005379A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37DC514A28CD775A005379A5 = {
+			isa = PBXGroup;
+			children = (
+				37DC515528CD775A005379A5 /* FullFeedback */,
+				37DC517328CD775B005379A5 /* FullFeedback Extension */,
+				37DC515428CD775A005379A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37DC515428CD775A005379A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37DC515328CD775A005379A5 /* FullFeedback.app */,
+				37DC516F28CD775B005379A5 /* FullFeedback Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37DC515528CD775A005379A5 /* FullFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				37DC515628CD775A005379A5 /* AppDelegate.swift */,
+				37DC516228CD775A005379A5 /* ViewController.swift */,
+				37DC516428CD775A005379A5 /* Main.storyboard */,
+				37DC516728CD775B005379A5 /* Assets.xcassets */,
+				37DC516928CD775B005379A5 /* FullFeedback.entitlements */,
+				37DC516A28CD775B005379A5 /* FullFeedback.entitlements */,
+				37DC515828CD775A005379A5 /* Resources */,
+			);
+			path = FullFeedback;
+			sourceTree = "<group>";
+		};
+		37DC515828CD775A005379A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37DC515928CD775A005379A5 /* Main.html */,
+				37DC515C28CD775A005379A5 /* Icon.png */,
+				37DC515E28CD775A005379A5 /* Style.css */,
+				37DC516028CD775A005379A5 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37DC517328CD775B005379A5 /* FullFeedback Extension */ = {
+			isa = PBXGroup;
+			children = (
+				37DC517428CD775B005379A5 /* SafariWebExtensionHandler.swift */,
+				37DC518728CD775B005379A5 /* Info.plist */,
+				37DC518828CD775B005379A5 /* FullFeedback_Extension.entitlements */,
+				37DC517628CD775B005379A5 /* Resources */,
+			);
+			path = "FullFeedback Extension";
+			sourceTree = "<group>";
+		};
+		37DC517628CD775B005379A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37DC517728CD775B005379A5 /* _locales */,
+				37DC517928CD775B005379A5 /* images */,
+				37DC517B28CD775B005379A5 /* manifest.json */,
+				37DC517D28CD775B005379A5 /* background.js */,
+				37DC517F28CD775B005379A5 /* content.js */,
+				37DC518128CD775B005379A5 /* popup.html */,
+				37DC518328CD775B005379A5 /* popup.css */,
+				37DC518528CD775B005379A5 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37DC515228CD775A005379A5 /* FullFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DC518F28CD775B005379A5 /* Build configuration list for PBXNativeTarget "FullFeedback" */;
+			buildPhases = (
+				37DC514F28CD775A005379A5 /* Sources */,
+				37DC515028CD775A005379A5 /* Frameworks */,
+				37DC515128CD775A005379A5 /* Resources */,
+				37DC518E28CD775B005379A5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DC517228CD775B005379A5 /* PBXTargetDependency */,
+			);
+			name = FullFeedback;
+			productName = FullFeedback;
+			productReference = 37DC515328CD775A005379A5 /* FullFeedback.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37DC516E28CD775B005379A5 /* FullFeedback Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DC518B28CD775B005379A5 /* Build configuration list for PBXNativeTarget "FullFeedback Extension" */;
+			buildPhases = (
+				37DC516B28CD775B005379A5 /* Sources */,
+				37DC516C28CD775B005379A5 /* Frameworks */,
+				37DC516D28CD775B005379A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FullFeedback Extension";
+			productName = "FullFeedback Extension";
+			productReference = 37DC516F28CD775B005379A5 /* FullFeedback Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37DC514B28CD775A005379A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					37DC515228CD775A005379A5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					37DC516E28CD775B005379A5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 37DC514E28CD775A005379A5 /* Build configuration list for PBXProject "FullFeedback" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37DC514A28CD775A005379A5;
+			productRefGroup = 37DC515428CD775A005379A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37DC515228CD775A005379A5 /* FullFeedback */,
+				37DC516E28CD775B005379A5 /* FullFeedback Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37DC515128CD775A005379A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC515D28CD775A005379A5 /* Icon.png in Resources */,
+				37DC516628CD775A005379A5 /* Main.storyboard in Resources */,
+				37DC516128CD775A005379A5 /* Script.js in Resources */,
+				37DC515B28CD775A005379A5 /* Main.html in Resources */,
+				37DC516828CD775B005379A5 /* Assets.xcassets in Resources */,
+				37DC515F28CD775A005379A5 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DC516D28CD775B005379A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC517E28CD775B005379A5 /* background.js in Resources */,
+				37DC518428CD775B005379A5 /* popup.css in Resources */,
+				37DC518228CD775B005379A5 /* popup.html in Resources */,
+				37DC517A28CD775B005379A5 /* images in Resources */,
+				37DC517C28CD775B005379A5 /* manifest.json in Resources */,
+				37DC517828CD775B005379A5 /* _locales in Resources */,
+				37DC518028CD775B005379A5 /* content.js in Resources */,
+				37DC518628CD775B005379A5 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37DC514F28CD775A005379A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC516328CD775A005379A5 /* ViewController.swift in Sources */,
+				37DC515728CD775A005379A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DC516B28CD775B005379A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC517528CD775B005379A5 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37DC517228CD775B005379A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37DC516E28CD775B005379A5 /* FullFeedback Extension */;
+			targetProxy = 37DC517128CD775B005379A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37DC515928CD775A005379A5 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DC515A28CD775A005379A5 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		37DC516428CD775A005379A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DC516528CD775A005379A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37DC518928CD775B005379A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37DC518A28CD775B005379A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		37DC518C28CD775B005379A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "FullFeedback Extension/FullFeedback_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBQ6Z8AF3U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FullFeedback Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FullFeedback Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.noppe.FullFeedback.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37DC518D28CD775B005379A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "FullFeedback Extension/FullFeedback_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBQ6Z8AF3U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FullFeedback Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FullFeedback Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.noppe.FullFeedback.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		37DC519028CD775B005379A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FullFeedback/FullFeedback.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBQ6Z8AF3U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FullFeedback;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.noppe.FullFeedback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37DC519128CD775B005379A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FullFeedback/FullFeedback.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBQ6Z8AF3U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FullFeedback;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.noppe.FullFeedback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37DC514E28CD775A005379A5 /* Build configuration list for PBXProject "FullFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DC518928CD775B005379A5 /* Debug */,
+				37DC518A28CD775B005379A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DC518B28CD775B005379A5 /* Build configuration list for PBXNativeTarget "FullFeedback Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DC518C28CD775B005379A5 /* Debug */,
+				37DC518D28CD775B005379A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DC518F28CD775B005379A5 /* Build configuration list for PBXNativeTarget "FullFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DC519028CD775B005379A5 /* Debug */,
+				37DC519128CD775B005379A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37DC514B28CD775A005379A5 /* Project object */;
+}
